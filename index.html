@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--länk till fontawesome-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Nermin</title>
+</head>
+
+<body>
+    <!--Skapa en div. Denna kommer ligga överst ovanför texten h1 och p.-->
+    <!--Efter divarna är skapade så la jag img både på över och under på första diven-->
+    <div class="top-container">
+        <img class="top-cloud" src="img/cloud.png" alt="cloud-img">
+        <h1>Nermin Festa</h1>
+        <p><b>Webbutvecklare</b></p>
+        <img class="bottom-cloud" src="img/cloud.png" alt="cloud-img">
+        <!--<img src="img/mountain.png" alt="mountain-img">-->
+    </div>
+    <!--i middle container innehåller det profil, om mina intressen och utbildning och arbetslivserfarenheter-->
+    <div class="middle-container">
+        <div class="profile">
+            <img class="mySelf" src="img/nermin.jpg" alt="selfie">
+            <h2>Vem är jag?</h2>
+            <p>29 år gammal som älskar teknik och att förbättra mig själv på alla håll och kanter. På fritiden älskar
+                jag att skapa musik, träna och att
+                hänga med vänner.
+            </p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>Utbildning/Arbetslivserfarenhet</h2>
+            <div class="skill-row">
+                <img class="img" src="img/bus.png" alt="buslogo">
+                <h3>2017-2019</h3>
+                <p><b>Keolis</b></p>
+                <p> Arbetade på ett bussbolag som hette Keolis. Där arbetade jag på flera platser. Jobbade på
+                    servicehallen där man skötte och underhöll
+                    bussarna så dom var rena och hela.<br> Jobbade som bussförare där det var viktigt att hålla tiderna.
+                    Och jobbade även på den administriva fronten
+                    som trafikledare.
+                </p>
+            </div>
+            <div class="skill-row">
+                <img class="img" src="img/code.png" alt="codepicture">
+                <h3>2020-2021</h3>
+                <p><b>Allmänlinje webb/it, Mullsjö folkhögskola</b></p>
+                <p>Under utbildningens gång läste jag upp betyg samt gick igenom webbutveckling, linuxterminalen &
+                    webbserverprogrammering.</p>
+            </div>
+            <div class="skill-row">
+                <img class="img" src="img/JU.jpg" alt="Julogga">
+                <h3>2021-2023</h3>
+                <p><b>Webbutvecklare.NET, Jönköping University - Campus Värnamo.</b></p>
+                <p>Studerar för närvarande, under utbildningen kommer jag lära mig att skapa webbapplikationer &
+                    API:er, både enskilt och i grupp,
+                    även gå igenom Affärsmannaskap & Affärsutveckling för it.
+                </p>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <!--Skapade en footer där man kan ha sin information och länkar-->
+    <footer>
+
+        <div class="contact-me">
+            <h2>Kontakta mig på</h2>
+            <a href="https://www.linkedin.com/in/nermin-festa-4391951a4/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Nermin-del"><i class="fab fa-github-square"></i></a>
+            <a href="mailto:nermin_festa@hotmail.com"><i class="fas fa-envelope-square"></i></a>
+        </div>
+        <p>Nermin Festa &copy; <span id="year"></span></p>
+    </footer>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        // Get the current year for copyright
+        $("#year").text(new Date().getFullYear());
+    </script>
+
+    <!--Denna script gör så att året ändras automatiskt efter varje nyår-->
+
+
+</body>
+
+</html>

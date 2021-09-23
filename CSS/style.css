@@ -1,0 +1,74 @@
+body {
+    /* ändrar allt i bodyn*/
+    background-color: #E4F9f5;
+    margin: 0;
+    text-align: center;
+    /*gör så att all text är i mitten*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*ändrar fonten på texten*/
+    scroll-behavior: smooth;
+}
+
+h1 {
+    /*ändrar på h1an*/
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.top-container {
+    /*ändrar allt som är i översta diven*/
+    background-color: #E4F9f5;
+    position: relative;
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+.middle-container {
+    /*skapade en class på index som denna kopplar till så det blir en ruta med färg.*/
+    /*background-color: red;*/
+    text-align: center;
+
+}
+
+.pro {
+    /* första p taggen kopplad till pro*/
+    text-decoration: underline;
+}
+
+footer {
+    /* ändrar i footer*/
+    text-align: center;
+}
+
+.top-cloud {
+    /*det översta molnet*/
+    position: absolute;
+    right: 300px;
+    top: 55px;
+}
+
+.bottom-cloud {
+    /* den nedersta moln img taggen*/
+    position: absolute;
+    left: 300px;
+    bottom: 100px;
+}
+
+.mySelf {
+    /*ändrar design/storleken på profilbilden*/
+    border-radius: 60%;
+    width: 210px;
+    height: 200px;
+}
+
+.img {
+    /*ändrar design/storlek på bilderna med logga*/
+    border: none;
+    width: 100px;
+    height: 100px;
+}
+
+.contact-me {
+    font-size: 1.6rem;
+
+}
